@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----------------My Styling Begins here on--------------------*/
+
+header .mainhead {
+    text-align: center;
+    font-family: American Typewriter, serif;
+    word-spacing: 10px;
+    font-size: 70px;
+    box-sizing: border-box;    
+    margin: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted grey;
+    height: 0px;
+    margin: 50px 700px;
+}
+
+h1 {
+    text-align: center;
+    font-family: American Typewriter, serif;
+    font-size: 40px;
+}
+
+.ex1box {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(175, 238, 175);
+    margin: 60px auto;
+    border: 5px solid black;
+    box-shadow: inset 0px 0px 0px 20px rgb(137, 213, 238);
+    outline: 20px solid rgb(255, 140, 159);    
+    box-sizing: border-box;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;       
+}
+.content {
+    background-color: rgb(175, 238, 175);
+    margin-left: 780px;
+}
+.padding {
+    background-color: rgb(137, 213, 238);
+    margin-left: 60px;
+}
+.border {
+    background-color: black;
+    margin-left: 60px;
+}
+.margin {
+    background-color: rgb(255, 140, 159);
+    margin-left: 55px;
+}
+span {
+    margin-left: 18px;
+}
+
+.bigbox {
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.smallbox {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightgrey;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    font-family: American Typewriter, serif;
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+
+.border1 {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.lastchild {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,69 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Box Model - Assignment No 4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="mainhead">The Box Model, Box-sizing & Box-<br>shadow</h1>
+            <hr>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h1>Exercise1</h1>
+                    <div class="ex1box"></div>
+                    <div>
+                        <div class="circle content"><span>Content</span></div>
+                        <div class="circle padding"><span>Padding</span></div>
+                        <div class="circle border"><span>Border</span></div>
+                        <div class="circle margin"><span>Margin</span></div>
+                    </div>   
+                    <hr>               
+                </article>
+                <article>
+                    <h1>Exercise2</h1>
+                    <p>No border on these boxes.</p>
+                    <div class="bigbox">
+                        <div class="smallbox"></div>
+                        <div class="smallbox"></div>
+                        <div class="smallbox"></div>
+                    </div>
+                    <hr>
+                    <p>1px border on these boxes.</p>
+                    <div class="bigbox">
+                        <div class="border1"></div>
+                        <div class="border1"></div>
+                        <div class="border1"></div>
+                    </div>     
+                    <hr>
+                    <p>1px border on these boxes but they are in same line.</p>
+                    <div class="bigbox">
+                        <div class="lastchild"></div>
+                        <div class="lastchild"></div>
+                        <div class="lastchild"></div>
+                    </div>        
+                    <br>       
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
